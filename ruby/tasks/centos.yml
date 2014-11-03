@@ -1,25 +1,25 @@
 ---
-- yum: name=tar state=present
+- yum: name=tar state=present 
+  sudo: true
 - yum: name=unzip state=present
-- yum: name=build-essential state=present
-- yum: name=openssl state=present
-- yum: name=curl state=present
-- yum: name=libcurl3-dev state=present
-- yum: name=libreadline6 state=present
-- yum: name=libreadline6-dev state=present
-- yum: name=git state=present
-- yum: name=zlib1g state=present
-- yum: name=zlib1g-dev state=present
-- yum: name=libssl-dev state=present
-- yum: name=libyaml-dev state=present
-- yum: name=libxml2-dev state=present
-- yum: name=libxslt-dev state=present
-- yum: name=autoconf state=present
-- yum: name=automake state=present
-- yum: name=libtool state=present
-- yum: name=imagemagick state=present
-- yum: name=libmagickwand-dev state=present
-- yum: name=libpcre3-dev state=present
-- yum: name=libsqlite3-dev state=present
-- yum: name=libmysql-ruby state=present
-- yum: name=libmysqlclient-dev state=present
+  sudo: true
+- yum: name=openssl-devel  state=present
+  sudo: true
+- yum: name=zlib-devel  state=present
+  sudo: true
+- yum: name=gcc  state=present
+  sudo: true
+- yum: name=gcc-c++  state=present
+  sudo: true
+- yum: name=make  state=present
+  sudo: true
+- yum: name=autoconf  state=present
+  sudo: true
+- yum: name=readline-devel  state=present
+  sudo: true
+- yum: name=curl-devel  state=present
+  sudo: true
+- yum: name=expat-devel  state=present
+  sudo: true
+- yum: name=gettext-devel state=present
+  sudo: true
