@@ -1,25 +1,49 @@
 ---
 - apt: name=tar state=present
+  sudo: true
 - apt: name=unzip state=present
+  sudo: true
 - apt: name=build-essential state=present
+  sudo: true
 - apt: name=openssl state=present
+  sudo: true
 - apt: name=curl state=present
+  sudo: true
 - apt: name=libcurl3-dev state=present
+  sudo: true
 - apt: name=libreadline6 state=present
+  sudo: true
 - apt: name=libreadline6-dev state=present
+  sudo: true
 - apt: name=git state=present
+  sudo: true
 - apt: name=zlib1g state=present
+  sudo: true
 - apt: name=zlib1g-dev state=present
+  sudo: true
 - apt: name=libssl-dev state=present
+  sudo: true
 - apt: name=libyaml-dev state=present
+  sudo: true
 - apt: name=libxml2-dev state=present
+  sudo: true
 - apt: name=libxslt-dev state=present
+  sudo: true
 - apt: name=autoconf state=present
+  sudo: true
 - apt: name=automake state=present
+  sudo: true
 - apt: name=libtool state=present
+  sudo: true
 - apt: name=imagemagick state=present
+  sudo: true
 - apt: name=libmagickwand-dev state=present
+  sudo: true
 - apt: name=libpcre3-dev state=present
+  sudo: true
 - apt: name=libsqlite3-dev state=present
+  sudo: true
 - apt: name=libmysql-ruby state=present
+  sudo: true
 - apt: name=libmysqlclient-dev state=present
+  sudo: true
