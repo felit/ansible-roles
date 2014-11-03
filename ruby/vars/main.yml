@@ -1,2 +1,4 @@
 ---
-# - ruby.tar.url = 
+ruby_src_url: "http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.gz"
+ruby_tmp_dir: "/home/vagrant"
+ruby_install_dir: "/opt/programs"

@@ -1,0 +1,8 @@
+---
+# - name: download ruby sourcecode file
+#   get_url: url={{ruby_src_url}} dest={{ruby_tmp_dir}}/ruby.tar.gz
+# - name: unpack ruby sourcecode file
+#   command: tar -zxvf {{ruby_tmp_dir}}/ruby.tar.gz
+# - command: ./configure --prefix={{ruby_install_dir}}/ruby chdir={{ruby_tmp_dir}}/ruby-2.1.4
+- command: make chdir={{ruby_tmp_dir}}/ruby-2.1.4
+- command: make install chdir={{ruby_tmp_dir}}/ruby-2.1.4
